@@ -16,4 +16,5 @@
 
 - (BOOL)importFileAtPath:(NSString *)filePath attributes:(NSMutableDictionary *)attributes error:(NSError **)error;
 
+
 @end

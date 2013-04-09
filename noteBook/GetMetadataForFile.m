@@ -37,7 +37,6 @@ Boolean GetMetadataForFile(void *thisInterface, CFMutableDictionaryRef attribute
 
         if ([(__bridge NSString *)contentTypeUTI isEqualToString:@"me.dlive.mac.note"]) {//YOUR_STORE_FILE_UTI
             // import from store file metadata
-            
             // Create the URL, then attempt to get the meta-data from the store
             //NSURL *url = [NSURL fileURLWithPath:(__bridge NSString *)pathToFile];
             //NSDictionary *metadata = [NSPersistentStoreCoordinator metadataForPersistentStoreOfType:nil URL:url error:&error];
