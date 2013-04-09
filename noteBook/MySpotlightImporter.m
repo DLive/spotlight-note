@@ -37,7 +37,6 @@
         NSLog(@"%@:%@ to find object id from path %@", [self class], NSStringFromSelector(_cmd), filePath);
         return NO;
     }
-
     NSManagedObject *instance = [[self managedObjectContext] objectWithID:oid];
 
     // how you process each instance will depend on the entity that the instance belongs to

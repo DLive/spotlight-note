@@ -15,6 +15,8 @@
 		88CE851E1708855C000F3CCB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 88CE851D1708855C000F3CCB /* main.c */; };
 		88CE85201708855C000F3CCB /* GetMetadataForFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CE851F1708855C000F3CCB /* GetMetadataForFile.m */; };
 		88CE85231708855C000F3CCB /* MySpotlightImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CE85221708855C000F3CCB /* MySpotlightImporter.m */; };
+		88CE852E170ADA7A000F3CCB /* app.ico in Resources */ = {isa = PBXBuildFile; fileRef = 88CE852D170ADA7A000F3CCB /* app.ico */; };
+		88CE8530170ADC24000F3CCB /* schema.xml in Resources */ = {isa = PBXBuildFile; fileRef = 88CE852F170ADC24000F3CCB /* schema.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		88CE85221708855C000F3CCB /* MySpotlightImporter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySpotlightImporter.m; sourceTree = "<group>"; };
 		88CE85241708855C000F3CCB /* Importer Read Me.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Importer Read Me.txt"; sourceTree = "<group>"; };
 		88CE85251708855C000F3CCB /* noteBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "noteBook-Prefix.pch"; sourceTree = "<group>"; };
+		88CE852D170ADA7A000F3CCB /* app.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = app.ico; sourceTree = "<group>"; };
+		88CE852F170ADC24000F3CCB /* schema.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schema.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +95,10 @@
 		88CE85181708855C000F3CCB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				88CE852F170ADC24000F3CCB /* schema.xml */,
 				88CE85191708855C000F3CCB /* noteBook-Info.plist */,
 				88CE851A1708855C000F3CCB /* InfoPlist.strings */,
+				88CE852D170ADA7A000F3CCB /* app.ico */,
 				88CE851D1708855C000F3CCB /* main.c */,
 				88CE85251708855C000F3CCB /* noteBook-Prefix.pch */,
 			);
@@ -151,6 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				88CE851C1708855C000F3CCB /* InfoPlist.strings in Resources */,
+				88CE852E170ADA7A000F3CCB /* app.ico in Resources */,
+				88CE8530170ADC24000F3CCB /* schema.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +299,7 @@
 				88CE852A1708855C000F3CCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
